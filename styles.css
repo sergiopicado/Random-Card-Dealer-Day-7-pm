@@ -1,0 +1,45 @@
+body {
+    background-color: green;
+}
+h1 {
+font-size: 250px;
+}
+#mainDiv {
+background-color: white;
+border: none;
+border-radius: 15px;
+margin-top: 50px;
+width: 25%;
+max-height: 520px;
+min-height: 520px;
+min-width: 32git status;
+max-width: 320px;
+}
+#leftTopSymbolDiv {
+display: flex;
+border: none;
+justify-content: flex-start;
+align-content: center;
+margin-top: 0;
+padding-top: 5px;
+padding-left:5px; 
+min-height: 90px;
+max-height: 110px;
+}
+#centerSymbolDiv {
+border: none;
+display: flex;
+justify-content: center;
+margin-top: 0;
+min-height: 300px;
+max-height: 300px;
+}  
+#rightBottomSymbolDiv {
+border: none;
+display: flex;
+justify-content: flex-start;
+align-content: center;
+min-height: 90px;
+max-height: 110px;
+transform: rotate(180deg);
+} 
